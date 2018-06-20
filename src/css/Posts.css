@@ -1,0 +1,77 @@
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+.post-style {
+	background-color: #6b6fde;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.post-style h2 {
+	margin: 0 0 20px;
+	color: #fff;
+}
+
+.post-style select {
+	width: 100px;
+	height: 30px;
+}
+
+.post-style select:focus {
+	outline: none;
+}
+
+.posts {
+	padding: 60px 0;
+}
+
+.posts .post {
+	font-size: 15px;
+}
+
+.posts .post .post-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.posts .post-action a {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.posts .post .post-action a:hover {
+	background-color: #6b6fde;
+}
+
+.post-style-grid .post {
+	width: 28.5%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #eee;
+	padding: 20px;
+}
+
+.post-style-grid .post:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.post-style-list .post {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}

@@ -1,0 +1,286 @@
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.section-col {
+	width: 30%;
+	float: left;
+	padding: 0 15px;
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 20px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.section-content {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.header-wrapper {
+	background: #fff;
+	padding: 30px 0;
+}
+
+.header-wrapper .header-logo {
+	float: left;
+	width: 40%;
+}
+
+.header-wrapper .header-nav {
+	float: right;
+	width: 60%;
+	text-align: right;
+}
+
+.header-wrapper .header-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.header-wrapper .header-nav ul li {
+	display: inline-block;
+}
+
+.header-wrapper .header-nav ul li a {
+	padding: 15px 15px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+}
+
+.header-wrapper .header-nav ul li a:hover {
+	color: #fb2b69;
+}
+
+/* Hero Section */
+
+.hero-section {
+	text-align: center;
+	padding: 120px 0 0;
+	background-color: #fb2b69;
+    background-image: -webkit-linear-gradient(315deg, #fb2b69 0%, #ff5b37 100%);
+    background-image: -moz-linear-gradient(135deg, #fb2b69 0%, #ff5b37 100%);
+    background-image: -o-linear-gradient(135deg, #fb2b69 0%, #ff5b37 100%);
+    background-image: -ms-linear-gradient(135deg, #fb2b69 0%, #ff5b37 100%);
+    background-image: linear-gradient(135deg, #fb2b69 0%, #ff5b37 100%);
+	color: #fff;
+}
+
+.hero-section h3 {
+	color: #fff;
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+
+.hero-section p {
+	margin-bottom: 30px;
+}
+
+.hero-section .button {
+	background-color: #fff;
+	color: #fb2b69;
+	border-radius: 50px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 20px 40px;
+}
+
+.hero-section .section-image {
+	line-height: 0;
+	margin-top: 70px;
+}
+
+
+/* Info Section */
+
+.info-section {
+	padding: 50px 0;
+	font-size: 15px;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #eee;
+}
+
+.info-section .infobox-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.info-section .infobox-desc {
+	margin-bottom: 20px;
+}
+
+.info-section .button {
+	padding: 0;
+	background: none;
+	color: #fb2b69;
+	text-decoration: underline;
+}
+
+/* Form */
+
+.form-wrapper {
+	max-width: 600px;
+	margin: 60px auto;
+	text-align: center;
+	background-color: #eee;
+	padding: 30px;
+}
+
+.form-wrapper input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.form-wrapper button {
+	background-color: #6b6fde;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+
+.form-wrapper button:hover {
+	background-color: #333;
+}
+
+.form-wrapper button:focus {
+	outline: none;
+}
+
+.form-wrapper .form-result {
+	margin-top: 20px;
+}
+
+/* Clock */
+
+.clock-wrapper {
+	max-width: 600px;
+	margin: 40px auto;
+	background-color: #eee;
+	padding: 30px;
+	text-align: center;
+}
+
+/* Contact Form */
+
+.contact-form-wrapper {
+	background-color: #eee;
+	padding: 20px;
+	max-width: 600px;
+	margin: 40px auto;
+}
+
+.contact-form-wrapper .form-field {
+	margin-bottom: 15px;
+}
+
+.contact-form-wrapper label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea,
+.contact-form-wrapper select {
+	width: 100%;
+	padding: 12px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+
+.contact-form-wrapper input:focus,
+.contact-form-wrapper textarea:focus,
+.contact-form-wrapper select:focus {
+	outline: none;
+}
+
+
+.contact-form-wrapper textarea {
+	height: 150px;
+}
+
+.contact-form-wrapper select {
+	padding: 0;
+	height: 75px;
+}
+
+.contact-form-wrapper select option {
+	padding: 5px;
+}
+
+/* Counter */
+
+.counter-wrapper,
+.countdown-wrapper {
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 40px;
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	text-align: center;
+}
+
+.counter-wrapper button,
+.countdown-wrapper button {
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 0 5px;
+	background-color: #6b6fde;
+	color: #fff;
+	border: 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.counter-wrapper button:hover,
+.countdown-wrapper button:hover {
+	background-color: #333;
+}
+
+.counter-wrapper button:focus,
+.countdown-wrapper button:focus {
+	outline: none;
+}
+
+
+.countdown-wrapper p {
+	margin-top: 30px;
+}
+
+.countdown-wrapper p span {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: #ccc;
+	border-radius: 100%;
+	padding: 30px;
+	margin-right: 10px;
+}
+
+.countdown-wrapper p span label {
+	display: block;
+}
